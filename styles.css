@@ -1,0 +1,60 @@
+#title {
+    text-decoration: underline;
+}
+
+.symbol {
+    font-size: 3em;
+}
+
+#ResultMessage {
+    font-size: 2em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.schedule {
+    width: 300px;
+}
+
+.station, .separator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.station-name {
+    width: 100%;
+    text-align: left;
+}
+
+.times {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.time {
+    text-align: center;
+}
+
+.separator {
+    height: 20px;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0;
+}
