@@ -18,15 +18,19 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 120;
+    height: 80;
     padding: 10px;
     border: 1px solid #00f;
     background-color: #000;
     margin-bottom: 5px;
+    box-sizing: border-box;
 }
 
 .station-name {
     width: 100%;
     text-align: left;
+    color: #fff;
 }
 
 .times {
@@ -38,6 +42,7 @@ body {
 
 .time {
     text-align: center;
+    color: #fff;
 }
 
 .separator {
