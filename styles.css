@@ -22,9 +22,10 @@ body {
     height: 80;
     padding: 10px;
     border: 1px solid #00f;
-    background-color: #000;
+    background-color: #555;
     margin-bottom: 5px;
     box-sizing: border-box;
+    border-radius: 10px; /* 角を丸くする */
 }
 
 .station-name {
