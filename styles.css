@@ -1,14 +1,3 @@
-#title {
-    text-decoration: underline;
-}
-
-.symbol {
-    font-size: 3em;
-}
-
-#ResultMessage {
-    font-size: 2em;
-}
 
 body {
     font-family: Arial, sans-serif;
@@ -17,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #000;
 }
 
 .schedule {
